@@ -1,0 +1,107 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Modelado",
+    "owner": "Koldo",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Cliente _ 1",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Cliente 1"
+      },
+      {
+        "id": 1,
+        "title": "Cliente _ 2",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Cliente 2"
+      },
+      {
+        "id": 2,
+        "title": "Cliente _ 3",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Cliente 3"
+      },
+      {
+        "id": 3,
+        "title": "Cliente _ PC_3",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Cliente 3_PC_QR"
+      },
+      {
+        "id": 4,
+        "title": "Cliente _ PC_3",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Cliente 3_PC_QR"
+      },
+      {
+        "id": 6,
+        "title": "Auth",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Auth SERV"
+      },
+      {
+        "id": 7,
+        "title": "Mail Box",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Mail BOX"
+      },
+      {
+        "id": 8,
+        "title": "Servidor Cloud GOOGLE",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Google Cloud Server "
+      },
+      {
+        "id": 9,
+        "title": "Servidor Cloud GOOGLE _ BACKUP",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "BK _ Google Cloud Server"
+      }
+    ],
+    "diagramTop": 10,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
