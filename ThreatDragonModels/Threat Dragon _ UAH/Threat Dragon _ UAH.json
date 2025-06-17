@@ -666,6 +666,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -749,7 +750,6 @@
               ]
             },
             "id": "9a709048-becc-402a-a029-5bb4cf6eee06",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Cliente 1",
@@ -782,6 +782,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -865,7 +866,6 @@
               ]
             },
             "id": "251cc94a-f3fb-4dff-91e6-dc4c56cb7d27",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Cliente 2",
@@ -891,13 +891,14 @@
                 "text": "Cliente 3"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -981,23 +982,33 @@
               ]
             },
             "id": "352d39ff-d349-4802-b5dd-6b7e756a6289",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "Cliente 3",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
+              "threats": [
+                {
+                  "id": "ff181454-d1f4-4871-a150-444f47b5f30a",
+                  "title": "Nueva amenaza STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing / Spoofing",
+                  "description": "Spoofing de usuario para conectarse con un cliente",
+                  "mitigation": "Inicio de sesión por 2FA",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
               ],
-              "name": null
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -1021,6 +1032,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1104,7 +1116,6 @@
               ]
             },
             "id": "ab305720-c8da-493e-b5c7-7781aed7ec8e",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "PC _ Cliente 3",
@@ -1209,6 +1220,6 @@
     ],
     "diagramTop": 6,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
