@@ -170,13 +170,6 @@
                 "spoofing": 1,
                 "repudiation": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -501,7 +494,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -521,12 +515,31 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "d1ea1a61-0a60-4872-8e58-af5fcb8f8067",
+                  "title": "Nueva amenaza STRIDE",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Denial of service / Denegación de servicio",
+                  "description": "Denegáción de servicios a la transmisión de datos desde el dispositivo al servidor",
+                  "mitigation": "Cortafuegos y evitar TCP/UPD masivo",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
             },
             "labels": [
               "Data Flow"
@@ -539,6 +552,16 @@
             "target": {
               "cell": "3b8e0f2c-ff80-48c8-907c-4f12422df690",
               "port": "2a3e27da-2b61-4323-8d52-3637592edeb6"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
@@ -1317,6 +1340,6 @@
     ],
     "diagramTop": 6,
     "reviewer": "",
-    "threatTop": 5
+    "threatTop": 6
   }
 }
